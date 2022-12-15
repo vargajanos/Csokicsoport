@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #276678;
+    height: 10vh;
+}
+#logo{
+    width: 150px;
+    height: 77px;
+    padding-top: 10px;
+}
+h1{
+    color: #F6F5F5;
+    padding-left: 30px;
+    font-size: 40px;
+}
+ul{
+    list-style-type: none;
+    color: #F6F5F5;
+    font-size: 30px;
+
+}
+li{
+    padding: 15px;
+    margin-left: -40px;
+}
+nav{
+    display: flex;
+    background-color: #1687A7;
+    height: 90vh;
+    
+}
+footer{
+    display: flex;
+    background-color: #276678;
+    justify-content: center;
+}
+body{
+    background-color: #D3e0ea;
+    margin: 0px;
+}
+
+#tartalom{
+    display: flex;
+    flex-direction: row;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+.kepzes{
+    background-color: #276678;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 30px;
+    color: #F6F5F5;
+}
