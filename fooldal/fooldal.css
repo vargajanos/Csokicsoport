@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #276678;
+    height: 10vh;
+}
+img{
+    width: 150px;
+    height: 77px;
+    padding-top: 10px;
+}
+h1{
+    color: #F6F5F5;
+    padding-left: 30px;
+    font-size: 40px;
+}
+ul{
+    list-style-type: none;
+    color: #F6F5F5;
+    font-size: 30px;
+
+}
+li{
+    padding: 15px;
+    margin-left: -40px;
+}
+nav{
+    display: flex;
+    background-color: #1687A7;
+    height: 100;
+    width: 20vw;
+}
+footer{
+    display: flex;
+    background-color: #276678;
+   justify-content: center;
+}
+body{
+    background-color: #D3e0ea;
+}
+#turrKep{
+    width: 300px;
+    height: 200px;
+    float: right;
+    margin: 30px;
+    
+}
+.tartalom{
+    display: flex;
+}
+p{
+    color: #276678;
+}
+#alcim{
+    color: #276678;
+}
