@@ -27,7 +27,6 @@ li{
 nav{
     display: flex;
     background-color: #1687A7;
-    height: 79vh;
 
 }
 footer{
@@ -42,10 +41,11 @@ body{
 
 .tartalom{
     display: flex;
-
 }
 article{
     display: flex;
+    flex-wrap: wrap;
+    font-size: smaller;
     justify-content: space-around;
     align-items: flex-start;
     color: #F6F5F5;
@@ -56,7 +56,8 @@ article{
     margin: 15px;
     padding: 15px;
     border-radius: 30px;
-    height: 300px;
+    width: 450px;
+    height: 200px;
     background-color: #276678;
     text-align: justify;
 }
@@ -66,13 +67,37 @@ article{
     border-radius: 30px;
     background-color: #276678;
 }
-img{
-    width: 100px;
-    height: 100px;
+article img{
+    width: 350px;
+    height: 150px;
+    margin-top: 20px;
+    padding-right: 15px;
 }
-h2{
-    float: right;
+.jelkykep{
+    width: 200px;
+    height: 150px;
 }
-p{
+
+article h2{
     float: right;
+    text-align: left;
+}
+@media screen and (max-width:1024px) {
+    .jelky{
+        width: 250px;
+        height: 250px;
+        padding: 15px;
+        margin: 5px;
+    }
+    article img{
+        height: 100px;
+    }
+    .jelkykep{
+        height: 100px;
+    }
+    article{
+        justify-content: space-around;
+    }
+
+    
 }
