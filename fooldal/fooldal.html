@@ -4,22 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link href="https://fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="dist/drawerr.css">-->
     <link rel="stylesheet" href="fooldal.css">
     <title>Document</title>
 
 </head>
 <body>
-    <header><h1>Türr</h1> <h1>Főoldal</h1> <img src="turr_logo.png" alt="Türr"></header>
+    <header>
+        <!--<ul>
+            <button class="toggleDrawerr">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        
+            <h1>Türr</h1>
+        </ul>-->
+         <h1>Főoldal</h1> <img src="turr_logo.png" alt="Türr"></header>
     
     <div class="tartalom ">
-        <nav>
-            <ul>
-                <li>Hírek</li>
-                <li>Képzések</li>
-                <li>Tanárok</li>
-                <li>Történet</li>
-                <li>Közelgő események</li>
-            </ul>
+        <nav id="drawerr" class="drawerr--init">
+            <div class="drawerr-container">
+                <div class="drawerr-navigation-container">
+                <ul>
+                    <li>Hírek</li>
+                    <li>Képzések</li>
+                    <li>Tanárok</li>
+                    <li>Történet</li>
+                    <li>Közelgő események</li>
+                </ul></div>
+            </div>
         </nav>
         <article>
             <img src="IMG_7958_átméretezve.JPG" id="turrKep">
@@ -36,6 +52,16 @@
         </article>
         
     </div>
+   
+    
+    
+    <script src="https://cdn.polyfill.io/v2/polyfill.js"></script>
+    <script src="dist/drawerr.js"></script>
+    <script>
+        const x = new drawerrMultilevel({
+            drawerr: '#drawerr'
+        });
+    </script>
     <footer><h1>türr@türr.hu</h1></footer>
 </body>
 </html>
