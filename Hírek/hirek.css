@@ -32,7 +32,7 @@ nav{
 footer{
     display: flex;
     background-color: #276678;
-   justify-content: center;
+    justify-content: center;
 }
 body{
     background-color: #D3e0ea;
@@ -41,25 +41,25 @@ body{
 
 .tartalom{
     display: flex;
+    flex-direction: row;
 }
 article{
     display: flex;
-    flex-wrap: wrap;
     font-size: smaller;
-    justify-content: space-around;
-    align-items: flex-start;
+    flex-direction: row;
     color: #F6F5F5;
 }
 .jelky{
     display: flex;
     flex-direction: row-reverse;
-    margin: 15px;
-    padding: 15px;
+    margin: 1.5vw;
+    padding: 1.08vw;
     border-radius: 30px;
-    width: 450px;
-    height: 200px;
     background-color: #276678;
     text-align: justify;
+}
+.karacsony{
+    float: left;
 }
 .evezos{
     margin: 15px;
@@ -82,22 +82,13 @@ article h2{
     float: right;
     text-align: left;
 }
-@media screen and (max-width:1024px) {
-    .jelky{
-        width: 250px;
-        height: 250px;
-        padding: 15px;
-        margin: 5px;
-    }
-    article img{
-        height: 100px;
-    }
-    .jelkykep{
-        height: 100px;
-    }
-    article{
-        justify-content: space-around;
-    }
 
-    
+.baloldal{
+    display: flex;
+    flex-direction: column;
+}
+
+.jobboldal{
+    display: flex;
+    flex-direction: column;
 }
