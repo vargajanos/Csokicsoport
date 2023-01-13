@@ -54,6 +54,21 @@ p{
 #alcim{
     color: #276678;
 }
+@media (max-width: 650px) {
+    #turrKep{
+        width: 80%;
+        height: 80%;
+        
+        padding: 30px;
+        margin-left: 30px;
+    }
+    .alcim{
+        text-align: center;
+    }
+    h1{text-align: center;
+        margin: auto;
+    }
+}
 
 
 
