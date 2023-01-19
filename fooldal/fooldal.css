@@ -46,6 +46,10 @@ body{
     margin: 0px;
 }
 
+a{
+  text-decoration: none;
+  color: #F6F5F5;
+}
 #tartalom{
     
     display: flex;
@@ -81,9 +85,10 @@ p{
 }
 .cim-kep{
     display: flex;
-    flex-direction: row;
+    flex-direction:  row;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 @media (max-width: 700px) {
