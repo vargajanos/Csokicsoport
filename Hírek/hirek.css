@@ -32,7 +32,11 @@ li{
 
 nav{
     display: flex;
+
     background-color: #1687A7;   
+
+    background-color: #1687A7;
+
 }
 
 footer{
@@ -66,6 +70,9 @@ a{
     width: 300px;
     float: right;
     height: 100px;
+
+    flex-direction: row;
+
 }
 
 .cim-kep{
@@ -103,7 +110,11 @@ article{
 }
 article img{
     display: flex;
+
     width: 15vw;
+
+    width: 20vw;
+
     height: 15vh;
     margin-top: 20px;
     padding-right: 15px;
@@ -122,6 +133,43 @@ article h2{
 .baloldal{
     display: flex;
     flex-direction: column;
+
+
+}
+
+.jobboldal{
+    display: flex;
+    flex-direction: column;
+}
+@media (max-width:1100px) {
+    .jelky{
+        display: flex;
+        flex-direction: row;
+        width: 35vw;
+        height: 30vh;
+        margin: 1.5vw;
+        padding: 1.08vw;
+        border-radius: 30px;
+        background-color: #276678;
+        
+    }
+    article{
+        font-size: 11px;
+    }
+    .kisebbmeret{
+        font-size: 10px;
+    }
+    .szoveg{
+        display: flex;
+        width: 30vw;
+    }
+    article img{
+        height: 10vh;
+    }
+    .jelkykep{
+        height: 10vh;
+    }
+
 }
 
 .jobboldal{
