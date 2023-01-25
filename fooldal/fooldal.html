@@ -1,41 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="fooldal.css">
+    <title>Főoldal</title>
 
 </head>
 <body>
-    <header><h1>Türr</h1> <h1>Főoldal</h1> <img src="turr_logo.png" alt="Türr"></header>
-    
-    <div class="tartalom ">
-        <nav>
-            <ul>
-                <li>Hírek</li>
-                <li>Képzések</li>
-                <li>Tanárok</li>
-                <li>Történet</li>
-                <li>Közelgő események</li>
-            </ul>
-        </nav>
-        <article>
-            <img src="IMG_7958_átméretezve.JPG" id="turrKep">
-            <h1 id="alcim">Bemutatkozás</h1>
-            <p>Szeretettel köszöntöm a Bajai SZC Türr István Technikum megújult honlapján. </p>
-            <p>A Bajai Szakképzési Centrum Türr István Technikum jogelődjét a Bajai Felsőkereskedelmi Iskolát közel 100 éve, 1923-ban alapították, azzal a céllal, hogy a város és a térség fejlődő gazdasága számára szakembereket képezzenek. Az intézmény küldetése azóta sem változott, iskolánk ma is fontos szerepet tölt be a környék társadalmi, gazdasági életében. </p>
-            <p>A technikum képzési kínálata ma 4 ágazatra terjed ki: gazdálkodás és menedzsment, informatika és távközlés, közlekedés és szállítmányozás, illetve oktatás ágazatra. Mind a négy terület rendkívül gyorsan változó, innovatív szakmákat foglal magába. Így iskolánkban egyszerre élnek mély gyökerekkel rendelkező tradíciók, identitást meghatározó hagyományok és korszerű technikai eszközök, módszerek, eljárások. Az előbbieket megőrizve az utóbbiakat felhasználva igyekszünk gyorsanan és eredményesen alkalmazkodni napjaink új kihívásaihoz.</p>
-            <p>Tanulói létszámunk megközelíti a 700 főt, melyből több mint 600 fő nappali munkarendben, közel 100 fő esti munkarendben tanul intézményünkben. Nagyon örülünk, hogy iskolánk az utóbbi években egyre népszerűbb a pályaválasztók körében, és egyre többen szeretnének türrösök lenni.</p>
-            <p>A siker azonban felelősséggel is jár. A Bajai Szakképzési Centrum támogatásával folyamatosan azon dolgozunk, hogy méltó feltételeket tudjunk biztosítani az oktatáshoz, mind az infrastruktúra, mind pedig a személyi feltételek tekintetében. Intézményünk 24 osztályteremmel és 14 számítógép-teremmel, korszerű eszközparkkal, esztétikus környezetben várja a tanulni vágyókat. Az oktatói testületet 47 főállású, 5 részmunkaidős és 11 óraadó tanár alkotja. Oktatóink elhivatott, együttműködő, és az innovációra nyitott, magasan képzett szakemberek, rendszeres résztvevői szakmai és módszertani továbbképzéseknek.</p>
-            <p>A siker azonban felelősséggel is jár. A Bajai Szakképzési Centrum támogatásával folyamatosan azon dolgozunk, hogy méltó feltételeket tudjunk biztosítani az oktatáshoz, mind az infrastruktúra, mind pedig a személyi feltételek tekintetében. Intézményünk 24 osztályteremmel és 14 számítógép-teremmel, korszerű eszközparkkal, esztétikus környezetben várja a tanulni vágyókat. Az oktatói testületet 47 főállású, 5 részmunkaidős és 11 óraadó tanár alkotja. Oktatóink elhivatott, együttműködő, és az innovációra nyitott, magasan képzett szakemberek, rendszeres résztvevői szakmai és módszertani továbbképzéseknek.</p>
-            <p>A minőségi oktatás mellett azonban fontos feladatnak tartjuk, hogy neveljünk is, és számos közösségépítő, szabadidős foglalkozást is biztosítunk tanulóink számára. A Diákönkormányzatunk változatos rendezvényei mellett a Türrös Diáksportegyesület által szervezett kirándulások színesítik a diákéletet.</p>
-            <p>Türrösnek lenni jó! Jó itt kezdeni a középiskolai tanulmányokat, a szakmai életutat, jó ide tartozni, és jó ide később visszatérni.</p>
-            <p>Nézzék meg kínálatunkat, mit lehet nálunk tanulni, milyen képzéseket kínálunk! Nyerjenek bepillantást, milyenek a türrös mindennapok!</p>
-        </article>
+    <header>
+
+        <!-- Hamburger menü -->
+                <section class="top-nav">
+                    
+                    <input id="menu-toggle" type="checkbox" />
+                    <label class='menu-button-container' for="menu-toggle">
+                    <div class='menu-button'></div>
+                  </label>
+                    <ul class="menu">
+                        <li><a href="../Hírek/hirek.html">Hírek</a></li>
+                        <li><a href="../Kepzesek/kepzesek.html">Képzések</a></li>
+                        <li><a href="../Tanarok/tanarok.html">Tanárok</a></li>
+                        <li><a href="../Tortenet/tortenet.html">Történet</a></li>
+                        <li><a href="../Kozelgo_esemenyek/kozelgo_esemenyek.html">Közelgő események</a></li>
+                    </ul>
+                  </section>
+                <h1><a href="../fooldal/fooldal.html">Türr</a></h1>
+                <h1>Főoldal</h1>
+                <img id="logo" src="turr_logo.png" alt="Türr">
         
-    </div>
+        
+    </header>
+        
+            <div id="tartalom">
+        
+                <nav>
+                    <ul>
+                        <li><a href="../Hírek/hirek.html">Hírek</a></li>
+                        <li><a href="../Kepzesek/kepzesek.html">Képzések</a></li>
+                        <li><a href="../Tanarok/tanarok.html">Tanárok</a></li>
+                        <li><a href="../Tortenet/tortenet.html">Történet</a></li>
+                        <li><a href="../Kozelgo_esemenyek/kozelgo_esemenyek.html">Közelgő események</a></li>
+                    </ul>
+                </nav>
+        
+                <!-- Hamburger menü vége -->    
+                <article>
+                    <div class="cim-kep">
+                    <h1 id="alcim">Bemutatkozás</h1>
+                    <img src="IMG_7958_átméretezve.JPG" id="turrKep" >
+                    </div>
+                    <p>Szeretettel köszöntöm a Bajai SZC Türr István Technikum megújult honlapján. </p>
+                    <br>
+                    <p>A Bajai Szakképzési Centrum Türr István Technikum jogelődjét a Bajai Felsőkereskedelmi Iskolát közel 100 éve, 1923-ban alapították, azzal a céllal, hogy a város és a térség fejlődő gazdasága számára szakembereket képezzenek. Az intézmény küldetése azóta sem változott, iskolánk ma is fontos szerepet tölt be a környék társadalmi, gazdasági életében. </p>
+                    <br>
+                    <p>A technikum képzési kínálata ma 4 ágazatra terjed ki: gazdálkodás és menedzsment, informatika és távközlés, közlekedés és szállítmányozás, illetve oktatás ágazatra. Mind a négy terület rendkívül gyorsan változó, innovatív szakmákat foglal magába. Így iskolánkban egyszerre élnek mély gyökerekkel rendelkező tradíciók, identitást meghatározó hagyományok és korszerű technikai eszközök, módszerek, eljárások. Az előbbieket megőrizve az utóbbiakat felhasználva igyekszünk gyorsanan és eredményesen alkalmazkodni napjaink új kihívásaihoz.</p>
+                        <br>
+                    <p>Tanulói létszámunk megközelíti a 700 főt, melyből több mint 600 fő nappali munkarendben, közel 100 fő esti munkarendben tanul intézményünkben. Nagyon örülünk, hogy iskolánk az utóbbi években egyre népszerűbb a pályaválasztók körében, és egyre többen szeretnének türrösök lenni. A siker azonban felelősséggel is jár. A Bajai Szakképzési Centrum támogatásával folyamatosan azon dolgozunk, hogy méltó feltételeket tudjunk biztosítani az oktatáshoz, mind az infrastruktúra, mind pedig a személyi feltételek tekintetében. Intézményünk 24 osztályteremmel és 14 számítógép-teremmel, korszerű eszközparkkal, esztétikus környezetben várja a tanulni vágyókat. Az oktatói testületet 47 főállású, 5 részmunkaidős és 11 óraadó tanár alkotja. Oktatóink elhivatott, együttműködő, és az innovációra nyitott, magasan képzett szakemberek, rendszeres résztvevői szakmai és módszertani továbbképzéseknek.
+                    A siker azonban felelősséggel is jár.</p>
+                    <br>
+                    
+                    <p> A Bajai Szakképzési Centrum támogatásával folyamatosan azon dolgozunk, hogy méltó feltételeket tudjunk biztosítani az oktatáshoz, mind az infrastruktúra, mind pedig a személyi feltételek tekintetében. Intézményünk 24 osztályteremmel és 14 számítógép-teremmel, korszerű eszközparkkal, esztétikus környezetben várja a tanulni vágyókat. Az oktatói testületet 47 főállású, 5 részmunkaidős és 11 óraadó tanár alkotja. Oktatóink elhivatott, együttműködő, és az innovációra nyitott, magasan képzett szakemberek, rendszeres résztvevői szakmai és módszertani továbbképzéseknek.
+                    A minőségi oktatás mellett azonban fontos feladatnak tartjuk, hogy neveljünk is, és számos közösségépítő, szabadidős foglalkozást is biztosítunk tanulóink számára. A Diákönkormányzatunk változatos rendezvényei mellett a Türrös Diáksportegyesület által szervezett kirándulások színesítik a diákéletet.
+                    Türrösnek lenni jó! Jó itt kezdeni a középiskolai tanulmányokat, a szakmai életutat, jó ide tartozni, és jó ide később visszatérni.
+                    Nézzék meg kínálatunkat, mit lehet nálunk tanulni, milyen képzéseket kínálunk! Nyerjenek bepillantást, milyenek a türrös mindennapok!</p>
+                </article>
+                
+            </div>
+   
+    
+    
+    
     <footer><h1>türr@türr.hu</h1></footer>
 </body>
 </html>

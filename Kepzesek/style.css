@@ -1,6 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #276678;
     height: 10vh;
 }
@@ -81,9 +82,9 @@ a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-<<<<<<< Updated upstream
+
 }
-=======
+
 }
 @media (max-width: 500px){
     .cim-kep{
@@ -93,6 +94,7 @@ a{
     .cim-kep img{
       width: 90%;
     }
+
 }
 
 @media (max-width: 700px) {
@@ -248,5 +250,7 @@ a{
     }
   }
 
+
 /* Hamburger menü vége */
->>>>>>> Stashed changes
+
+
