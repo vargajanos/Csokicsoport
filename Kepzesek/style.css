@@ -65,6 +65,12 @@ article{
     color: #F6F5F5;
 }
 
+a{
+  text-decoration: none;
+  color: #F6F5F5;
+}
+
+
 .cim-kep img{
     width: 300px;
     float: right;
@@ -76,6 +82,19 @@ article{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+}
+
+}
+@media (max-width: 500px){
+    .cim-kep{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .cim-kep img{
+      width: 90%;
+    }
+
 }
 
 @media (max-width: 700px) {
@@ -231,4 +250,7 @@ article{
     }
   }
 
+
 /* Hamburger menü vége */
+
+
