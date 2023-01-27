@@ -100,6 +100,10 @@ p{
         display: flex;
         flex-direction: column;
     }
+    .turr{
+      visibility: hidden;
+      width: 0;
+    }
 }
 
 
@@ -108,6 +112,14 @@ p{
 
 
 /* Hamburger menü */
+@media (max-width:380px) {
+  #logo{
+    visibility: hidden;
+    width: 0;
+  }
+}
+  
+  
 
 @media (min-width: 700px) {
     .top-nav{
@@ -276,6 +288,6 @@ p{
         border-bottom: 1px solid #444;
       }
 }
-  
+
 
 
