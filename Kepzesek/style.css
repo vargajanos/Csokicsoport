@@ -21,7 +21,7 @@ h1{
 ul{
     list-style-type: none;
     color: #F6F5F5;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 
@@ -55,6 +55,7 @@ article{
     display: flex;
     flex-direction: column;
     align-content: space-around;
+    font-size: 18px;
 }
 
 .kepzes{
@@ -82,7 +83,7 @@ a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    
 }
 
 @media (max-width: 500px){
