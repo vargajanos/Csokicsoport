@@ -77,7 +77,10 @@ article{
 }
 
 p{
-    color: #276678;
+  
+    font-size: 17px;
+    color: #F6F5F5;
+
 }
 #alcim{
     color: #276678;
@@ -95,25 +98,49 @@ p{
 .tanar{
     display: flex;
     
-    flex-direction: row;
-    width: 23vw;
-    height: 20vh;
-    margin: 1.5vw;
-    padding: 1.08vw;
-    border-radius: 30px;
     background-color: #276678;
+    
+    
+    width: 300px;
+    height: 270px;
+    border-radius: 30px;
+
+    /*flex-direction: column;*/
+    display: flex;
+    
     flex-wrap: wrap;
 }
 
 
+.tanarok{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    
+    justify-content: center;
+    gap: 30px;
+}
 
 
 
+.kep{
+    width: 55%;
+    height: 60%;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+    float: top;
+}
 
-
-
-
-
+.szoveg{
+  margin-left: 20px;
+}
+.név{
+  font-size: 18px;
+}
 
 
 
