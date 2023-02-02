@@ -52,11 +52,10 @@ body{
 }
 
 article{
-    display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    align-items: center;
-    font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  font-size: 18px;
 }
 
 a{
@@ -79,15 +78,24 @@ a{
 
 .szoveg{
   background-color: #276678;
-    margin: 15px;
-    padding: 15px;
-    border-radius: 30px;
-    color: #F6F5F5;
-    
+  margin: 15px;
+  padding: 15px;
+  border-radius: 30px;
+  color: #F6F5F5;   
+}
+
+.szoveg ul{
+  padding-left: 50px;
 }
 
 .szoveg li{
   font-size: 18px;
+  list-style-type: disc;
+  padding-left: 0px;
+}
+
+h2{
+  text-align: center;
 }
 
 @media (max-width: 700px) {
