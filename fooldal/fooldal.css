@@ -21,7 +21,7 @@ h1{
 ul{
     list-style-type: none;
     color: #F6F5F5;
-    font-size: 25px;
+    font-size: 30px;
 
 }
 
@@ -61,7 +61,6 @@ article{
     display: flex;
     flex-direction: column;
     align-content: space-around;
-    font-size: 18px;
 }
 
 
@@ -83,6 +82,8 @@ p{
     font-size: 30px;
     
 }
+
+
 
 
 .cim-kep img{
