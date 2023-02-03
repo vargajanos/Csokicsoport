@@ -21,7 +21,7 @@ h1{
 ul{
   list-style-type: none;
   color: #F6F5F5;
-  font-size: 30px;
+  font-size: 25px;
 
 }
 
@@ -91,6 +91,9 @@ article{
   border-radius: 30px;
   background-color: #276678;
   
+}
+article p{
+  font-size: 14px;
 }
 .karacsony{
   float: left;
@@ -179,7 +182,9 @@ article h2{
       width: 80vw;
       
   }
-  
+  .kirandulas{
+    height: 55%;
+  }
   article img{
     height: 60%;
   }
